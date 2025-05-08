@@ -1,0 +1,22 @@
+.main{
+    background-color: blueviolet;
+}
+
+#little-box1{
+    display: flex;
+}
+
+#bottom-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: 380px;
+    background-color: rgb(101, 169, 196);
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
