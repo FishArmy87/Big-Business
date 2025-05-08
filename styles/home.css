@@ -3,6 +3,26 @@
 }
 
 #little-box1{
+    border-radius: 50px;
+    background-color: aqua;
+}
+
+#little-box2{
+    display: flex;
+    flex-direction: column;
+}
+
+#little-box3{
+    display: flex;
+    flex-direction: column;
+}
+
+#little-box4{
+    display: flex;
+    flex-direction: column;
+}
+
+#large-box{
     display: flex;
 }
 
