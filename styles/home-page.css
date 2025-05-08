@@ -22,3 +22,11 @@ nav {
     color: black;
     font-weight: 500;
 }
+
+h1{
+    text-align: center;
+}
+
+.main{
+    max-width: 300px;
+}
