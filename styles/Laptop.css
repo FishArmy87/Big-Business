@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    background-color: #ffffff;
+    color: white;
+    outline-style: solid;
+    outline-color: #240115;
+    outline-width: 0.2em;
+}
+
+.logo img {
+    height: 5em;
+    width:60%
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 2em;
+}
