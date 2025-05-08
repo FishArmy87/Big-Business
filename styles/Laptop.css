@@ -27,3 +27,33 @@ nav {
     font-weight: 500;
     font-size: 2em;
 }
+#splitSection{
+    padding: 1em;
+    outline-style: solid;
+    outline-color: #240115;
+    outline-width: 0.2em;
+    align-content: space-around;
+
+}
+#splitSection-img {
+    display: flex;
+    width: 50%;
+    order: 1;
+}
+
+.text{
+    display:flex;
+    width:50%;
+    order: 2;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+
+}
