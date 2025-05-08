@@ -1,0 +1,42 @@
+.main{
+    background-color: blueviolet;
+}
+
+#little-box1{
+    border-radius: 50px;
+    background-color: aqua;
+}
+
+#little-box2{
+    display: flex;
+    flex-direction: column;
+}
+
+#little-box3{
+    display: flex;
+    flex-direction: column;
+}
+
+#little-box4{
+    display: flex;
+    flex-direction: column;
+}
+
+#large-box{
+    display: flex;
+}
+
+#bottom-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: 380px;
+    background-color: rgb(101, 169, 196);
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
