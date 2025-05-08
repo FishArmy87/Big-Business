@@ -25,15 +25,9 @@ h2 {
 
 .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    padding: 50px 100px;
-}
-
-.product-header {
-    display: flex;
-    background-color: aliceblue;
-    gap: 15px;
+    padding: 50px 250px;
 }
 
 .col {
@@ -45,17 +39,42 @@ h2 {
     padding: 25px;
 }
 
-img {
-    width: 100%;
+.product-info {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.product-info .description {
+    text-align: left;
+}
+
+.gallery {
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery img {
+    width: 200%;
     height: 500px;
     object-fit: cover;
 }
 
-.product-info {
-    text-align: center;
-    padding: 0 250px
+
+
+
+
+
+
+.second-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
-.gallery {
+.second-gallery {
     display: flex;
+}
+
+.other-img {
+    width: 100%;
 }
